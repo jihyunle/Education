@@ -19,9 +19,7 @@ public class Education {
     @Override
     public String toString(){
         String str = "";
-        for (String s:schools){
-            str += s + " University, ";
-        }
+        str = str.join(" University, ", schools);
         return str;
     }
 
