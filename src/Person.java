@@ -7,6 +7,7 @@ public class Person {
         education.setSchools();
     }
 
+    @Override
     public String toString(){
         return education.toString();
     }

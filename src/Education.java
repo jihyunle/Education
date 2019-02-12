@@ -16,6 +16,7 @@ public class Education {
         return schools;
     }
 
+    @Override
     public String toString(){
         String str = "";
         for (String s:schools){
